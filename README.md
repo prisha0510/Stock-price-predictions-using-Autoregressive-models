@@ -1,2 +1,4 @@
 # Stock-price-predictions-using-Autoregressive-models
 Given the monthly fundamental indicator values for 100 stocks in the JPSE for the past 20 years, the task is to predict the prices for these stocks as accurately as possible (aiming to minimize the RMSE)
+The stock-specific data is available for 8 financial metrics namely - Current Liabilities, Total Liabilities, Equity, Total Assets, Current Assets, Total revenue, Net Income, Dividend and Shares Outstanding. All these values are available monthly as of the last day of that month.
+The above solution uses the SARIMAX Model (Seasonal Autoregressive Integrated Moving Average with Exogenous Factors). It is a model based on the time series forcasting method. The SARIMAX model stands out as a powerful tool for modeling and forecasting both trends and seasonal variations in temporal data, while incorporating exogenous variables into the analysis to improve prediction accuracy.
